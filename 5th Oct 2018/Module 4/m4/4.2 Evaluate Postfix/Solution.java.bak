@@ -1,6 +1,4 @@
-/*
-@author Gajjala_Sreekanthreddy_18031J0058
-*/import java.util.Scanner;
+import java.util.Scanner;
 import java.util.Stack;
 class Solution {
 	static int evaluatePostfix(String exp) 
