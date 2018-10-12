@@ -1,0 +1,319 @@
+########## Testcase 0: Passed ##########
+Expected Output: 
+1
+2, 1
+3, 2, 1
+4, 3, 2, 1
+4, 3, 2, 1, 0
+4, 3, 2, 1, 0, 1
+3, 2, 1, 0, 1
+2, 1, 0, 1
+1, 0, 1
+0, 1
+1
+Steque is empty.
+Steque is empty.
+
+Your Output: 
+1
+2, 1
+3, 2, 1
+4, 3, 2, 1
+4, 3, 2, 1, 0
+4, 3, 2, 1, 0, 1
+3, 2, 1, 0, 1
+2, 1, 0, 1
+1, 0, 1
+0, 1
+1
+Steque is empty.
+Steque is empty.
+
+----------------------------------------
+########## Testcase 1: Passed ##########
+Expected Output: 
+Steque is empty.
+Steque is empty.
+
+1
+2, 1
+3, 2, 1
+4, 3, 2, 1
+3, 2, 1
+2, 1
+1
+Steque is empty.
+5
+5, 6
+5, 6, 7
+5, 6, 7, 8
+6, 7, 8
+7, 8
+
+100
+100, 200
+100, 200, 300
+100, 200, 300, 400
+100, 200, 300, 400, 500
+100, 200, 300, 400, 500, 600
+100, 200, 300, 400, 500, 600, 700
+100, 200, 300, 400, 500, 600, 700, 800
+900, 100, 200, 300, 400, 500, 600, 700, 800
+1000, 900, 100, 200, 300, 400, 500, 600, 700, 800
+1000, 900, 100, 200, 300, 400, 500, 600, 700, 800, 1100
+1000, 900, 100, 200, 300, 400, 500, 600, 700, 800, 1100, 1200
+900, 100, 200, 300, 400, 500, 600, 700, 800, 1100, 1200
+100, 200, 300, 400, 500, 600, 700, 800, 1100, 1200
+
+10
+10, 9
+8, 10, 9
+8, 10, 9, 7
+6, 8, 10, 9, 7
+6, 8, 10, 9, 7, 5
+4, 6, 8, 10, 9, 7, 5
+4, 6, 8, 10, 9, 7, 5, 3
+2, 4, 6, 8, 10, 9, 7, 5, 3
+2, 4, 6, 8, 10, 9, 7, 5, 3, 1
+
+Your Output: 
+Steque is empty.
+Steque is empty.
+
+1
+2, 1
+3, 2, 1
+4, 3, 2, 1
+3, 2, 1
+2, 1
+1
+Steque is empty.
+5
+5, 6
+5, 6, 7
+5, 6, 7, 8
+6, 7, 8
+7, 8
+
+100
+100, 200
+100, 200, 300
+100, 200, 300, 400
+100, 200, 300, 400, 500
+100, 200, 300, 400, 500, 600
+100, 200, 300, 400, 500, 600, 700
+100, 200, 300, 400, 500, 600, 700, 800
+900, 100, 200, 300, 400, 500, 600, 700, 800
+1000, 900, 100, 200, 300, 400, 500, 600, 700, 800
+1000, 900, 100, 200, 300, 400, 500, 600, 700, 800, 1100
+1000, 900, 100, 200, 300, 400, 500, 600, 700, 800, 1100, 1200
+900, 100, 200, 300, 400, 500, 600, 700, 800, 1100, 1200
+100, 200, 300, 400, 500, 600, 700, 800, 1100, 1200
+
+10
+10, 9
+8, 10, 9
+8, 10, 9, 7
+6, 8, 10, 9, 7
+6, 8, 10, 9, 7, 5
+4, 6, 8, 10, 9, 7, 5
+4, 6, 8, 10, 9, 7, 5, 3
+2, 4, 6, 8, 10, 9, 7, 5, 3
+2, 4, 6, 8, 10, 9, 7, 5, 3, 1
+
+----------------------------------------
+Result: 2/2 testcases passed.
+Starting audit...
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:4:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:5:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:5:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:5:13: Variable 'data' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:6:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:6:15: Variable 'next' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:7:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:7:15: Parameter a should be final. [FinalParameters]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:8:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:9:26: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:9:27: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:10:26: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:10:27: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:13: Missing a Javadoc comment. [JavadocType]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:13:7: Name 'list' must match pattern '^[A-Z][a-zA-Z0-9]*$'. [TypeName]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:14:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:15:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:15:13: Variable 'size' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:15:17: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:15:18: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:16:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:16:15: Name 'Head' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:16:15: Variable 'Head' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:17:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:18:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:19:21: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:19:22: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:21:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:21:30: Parameter a should be final. [FinalParameters]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:22:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:23:28: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:23:29: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:25:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:25:24: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:25:26: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:26:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:27:29: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:27:30: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:28:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:30:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:31:35: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:31:36: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:32:29: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:32:30: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:35:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:35:25: Parameter a should be final. [FinalParameters]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:36:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:37:28: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:37:29: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:39: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:39:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:39:24: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:39:26: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:40:21: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:40:22: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:42:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:43:35: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:43:36: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:44:30: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:44:40: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:44:42: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:45:25: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:46:37: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:46:38: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:48:34: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:48:35: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:50: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:52:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:53:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:55:27: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:55:28: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:56:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:56:24: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:56:26: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:57:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:58:30: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:58:31: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:60:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:62:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:63:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:63:29: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:63:31: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:64:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:65:30: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:65:31: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:66:29: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:66:30: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:68:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:70:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:71: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:72:30: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:72:45: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:72:47: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:73:25: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:74:37: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:74:38: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:76:30: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:76:31: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:77:34: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:77:35: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:82:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:83:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:84:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:84:24: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:84:26: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:85:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:87:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:89:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:90:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:90:29: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:90:31: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:91:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:92:30: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:92:31: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:93:29: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:93:30: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:95:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:97:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:98:30: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:99:29: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:99:30: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:103: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:105:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:105:23: Name 'Disp' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:106:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:107:28: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:107:29: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:108:25: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:108:26: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:109:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:109:25: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:109:27: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:110:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:112:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:114:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:115:22: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:115:33: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:115:35: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:116:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:117:26: '+=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:117:28: '+=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:118: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:119:52: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:119:53: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:120:30: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:120:31: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:125: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:129: Missing a Javadoc comment. [JavadocType]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:129:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:130:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:131:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:131:33: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:132:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:133:27: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:133:28: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:134:24: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:134:25: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:134:26: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:135:23: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:135:24: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:136:26: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:136:27: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:137:22: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:138:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:139: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:140:33: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:140:34: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:141:35: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:141:36: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:142: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:142:31: 'switch' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:143:25: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:145:38: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:145:39: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:150:34: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:150:35: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:155:34: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:155:35: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:157:35: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:157:37: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:157:39: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:158:33: '{' at column 5 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:160:33: '}' at column 5 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:162:33: '{' at column 5 should be on the previous line. [LeftCurly]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:167:39: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:167:40: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:168: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:171: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\hp\Desktop\GIT HUB\18031J0058__ADS1\18031J0058__ADS1\Module 7\m7\7.1 Steque\Solution.java:173: Line has trailing spaces. [RegexpSingleline]
+Audit done.
+Checkstyle ends with 191 errors.
