@@ -1,0 +1,153 @@
+
+Activity-4
+
+E A S Y Q U E S T I O N
+SelectionSort: Sorting based on aplhabetical order
+
+1. A E S Y Q U E S T I O N
+2. A E S Y Q U E S T I O N
+3. A E E Y Q U S S T I O N
+4. A E E I Q U S S T Y O N
+5. A E E I N U S S T Y O Q
+6. A E E I N O S S T Y U Q
+7. A E E I N O Q S T Y U S
+8. A E E I N O Q S T Y U S
+9. A E E I N O Q S S Y U T
+10.A E E I N O Q S S T U Y
+--------------------------------------------------------------------------------------------------------------
+Activity-5
+
+InerstionSort
+E A S Y Q U E S T I O N
+A E S Y Q U E S T I O N
+A E S Q Y U E S T I O N
+A E Q S Y U E S T I O N
+A E Q S Y E U S T I O N
+A E Q S E Y U S T I O N
+A E Q E S Y U S T I O N
+A E E Q S Y U S T I O N
+A E E Q S U Y S T I O N
+A E E Q S U S Y T I O N
+A E E Q S S U Y T I O N
+A E E Q S S U T Y I O N
+A E E Q S S T U Y I O N
+A E E Q S T S U Y I O N
+A E E Q T S S U Y I O N
+A E E Q T S S U I Y O N
+A E E Q T S S I U Y O N
+A E E Q T S I S U Y O N
+A E E Q T I S S U Y O N
+A E E Q I T S S U Y O N
+A E E I Q T S S U Y O N
+A E E I Q T S S U O Y N
+A E E I Q T S S O U Y N
+A E E I Q T S O S U Y N
+A E E I Q T O S S U Y N
+A E E I Q O T S S U Y N
+A E E I O Q T S S U Y N
+A E E I O Q T S S U N Y
+A E E I O Q T S S N U Y
+A E E I O Q T S N S U Y
+A E E I O Q T N S S U Y
+A E E I O Q N T S S U Y
+A E E I O N Q T S S U Y
+A E E I N O Q T S S U Y
+
+
+----------------------------------------------------------------------------------------------------------------------------
+Activity-6
+
+write the missing statements in the below code:\
+
+
+
+
+public class Selection { 
+
+public static void sort(Comparable[] a) {
+
+int N = a.length();
+
+for (int i = 0; i < N; i++) { 
+
+Int min = i;   
+
+for (int j = i+1; j < N; j++) 
+
+if (less(a[j], a[min])) 
+
+min =  j;
+
+exch(a, i, min);     
+
+}
+
+ }
+
+ }
+----------------------------------------------------------------------------------------------------------------------------
+Activity-7
+
+If a = {3, 6, 4, 2, 1, 0} is the input for below code
+
+public class Insertion { 
+
+public static void sort(Comparable[] a) { 	
+
+int N = a.length; 
+
+for (int i = 1; i < N; i++) { 
+
+for (int j = i; j > 0 && less(a[ j ], a[j-1]); j--) 
+
+exch(a, j, j-1); 
+
+} 
+
+}
+
+}
+
+}
+
+
+Answer the following questions
+
+Note: while writing answers use the following notation [1, 2, 3, 4]
+
+	
+Print the elements in the array a, after completion of 2nd iteration of loop i
+
+	
+
+	
+
+Print the elements in the array a, in 3rd iteration of i and after completion of 2nd iteration of loop j
+
+
+
+
+Print the elements in the array a, in 4th iteration of i and after completion of 1st iteration of loop j
+------------------------------------------------------------------------------------------------------------------------------------
+Activity - 8
+
+Which method runs faster for an array with all keys identical, basic selection sort or basic insertion sort?
+
+For an array with all keys identical,
+
+Practically insertion  sort is more efficient than selection sort, even though all of them have O(n2) worst case complexity
+Selection sort is the most ineffective technique, but the easiest to implement.
+Insertion sort is more efficient because it shifts elements the end of the array. 
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+Activity - 9 
+
+Which method runs faster for an array in reverse order, basic selection sort or basic insertion sort?
+
+Basic selection sort runs faster for an array in reverse order.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
