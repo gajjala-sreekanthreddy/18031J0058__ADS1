@@ -1,0 +1,242 @@
+Activity2
+
+public int count(int n) {
+
+  if(n <= 6){
+
+    return 0;
+
+  }
+
+  if(n%10 == 7){
+
+    return 1 + count(n/10);
+
+  }
+
+  return count(n/10);
+
+}
+
+Answer the following question when count method is called with different parameters.
+
+count(717)  -------> Ans.2
+
+
+
+count(7) ----------> Ans.1
+
+
+
+count(123) ---------> Ans.0
+
+
+
+count(47571) ----------> Ans.2
+
+
+
+count(99999)---------> Ans.0
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Activity3
+
+public int triangle(int rows) {
+
+  if(rows == 0){
+
+    return 0;
+
+  }
+
+  return rows + triangle(rows-1);
+
+}
+
+Answer the following question when triangle method is called with different parameters.
+
+triangle(3) --------> Ans.6
+
+
+
+triangle(2) --------> Ans.3
+
+
+
+triangle(6) --------> Ans.21
+
+
+
+triangle(4) --------> Ans.10
+
+
+
+triangle(7) --------> Ans.28
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Activity4
+
+public int bunnyEars(int bunnies)
+
+{
+
+	if(bunnies == 0)
+
+		return 0;
+
+	if(bunnies % 2 == 1)
+
+		return 2 + bunnyEars(bunnies-1);
+
+	return 3 + bunnyEars(bunnies-1);
+
+}
+
+Answer the following question when bunnyEars method is called with different parameters.
+
+bunnyEars(0) -----> Ans.0
+
+
+
+bunnyEars(2) ------> Ans.5
+
+
+
+bunnyEars(4) -------> Ans.10
+
+
+
+bunnyEars(5) -------> Ans.12
+
+
+bunnyEars(10)-------> Ans.25
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Activity5
+
+public String endX(String str)
+
+{
+
+	if(str.length() == 0)
+
+		return str;
+
+	if(str.charAt(0) == 'x')
+
+		return endX(str.substring(1)) + 'x';
+
+	return str.charAt(0) + endX(str.substring(1));
+
+}
+
+Answer the following question when endX method is called with different parameters.
+
+endX("xxre") ------> Ans.rexx
+
+
+endX("xxhixx") ------> Ans.hixxxx
+
+
+endX("xx") ------> Ans.xx
+
+
+end("bxx") -------> Ans.bxx
+
+
+end("bxax")-------> Ans.baxx
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Activity6
+
+public String parenBit(String str)
+
+{
+
+	int len = str.length();
+
+	if(str.charAt(0) != '(')
+
+	{
+
+		if(str.charAt(len - 1) != ')')
+
+			return parenBit(str.substring(1, len -1));
+
+		return parenBit(str.substring(1));
+
+	}
+
+	if(str.charAt(len - 1) != ')')
+
+		return parenBit(str.substring(0, len - 1));
+
+	return str;
+
+}
+
+Answer the following question when endX method is called with different parameters.
+
+parenBit("xyz(abc)123") -----> Ans.(abc)
+
+parenBit("(xy)1")      ------> Ans. (xy)
+
+parenBit("hello(not really)there") -------> Ans. (not really)
+
+parenBit("()")  ----------> Ans. ()
+
+parenBit("res (ipsa) loquitor") -------> (ipsa)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Activity 7 - Learning By Doing
+
+Given a non negative number n, return the factorial of n, which is n * (n-1) * (n-2)... 1. Compute the result recursively (without loops).
+
+
+// Java program to find factorial of given number 
+class Test 
+{ 
+    
+    static int factorial(int n) 
+    { 
+        if (n == 0) 
+          return 1; 
+          
+        return n*factorial(n-1); 
+    } 
+      
+ 
+    public static void main(String[] args)  
+    { 
+        int num = 5; 
+        System.out.println("Factorial of "+ num + " is " + factorial(5)); 
+    } 
+} 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Activity 8 - Learning by doing
+
+
+Given a string, compute recursively a new string where identical chars that are adjacent in the original string are separated from each other by a "*".
+
+public class PairStar {
+	public String pairStar(String str) {
+
+		if (str.length() <= 1)
+			return str;
+
+		if (str.charAt(0) == str.charAt(1))
+			return str.charAt(0) + "*" + pairStar(str.substring(1)); 
+
+		return str.charAt(0) + pairStar(str.substring(1));
+
+	}
+}
+
